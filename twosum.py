@@ -7,6 +7,7 @@ class Solution(object):
         """
         output = []
         for i in range (len(nums)):
-            if nums[i] + nums[i+1] == target:
-                output = [i, i+1]
-                return output
+            for j in range (i+1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    output = [i, j]
+                    return output
