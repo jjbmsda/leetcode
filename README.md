@@ -1,2 +1,2 @@
 # leetcode
-Implemented solution for a Leetcode algorithm.
+Implemented solution for a Leetcode algorithm!
